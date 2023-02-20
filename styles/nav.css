@@ -1,0 +1,32 @@
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background: var(--color_1);
+    background: var(--gradient_1);
+}
+
+nav a {
+    font-size: 2rem;
+    padding: 20px;
+    margin: 0 20px;
+
+    text-align: center;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        flex: 0 0 100%;
+    }
+}
