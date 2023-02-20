@@ -1,0 +1,25 @@
+.prettyprint {
+}
+
+.prettyletter {
+    display: inline-block;
+    transition: .15s all;
+}
+
+.prettyletter--hover {
+    padding-left: 4px;
+    padding-right: 4px;
+    transform: scale(1.5);
+}
+
+.prettyletter--siblinghover {
+    padding-left: 2px;
+    padding-right: 2px;
+    transform: scale(1.4);
+}
+
+.prettyletter--nextsiblinghover {
+    padding-left: 1px;
+    padding-right: 1px;
+    transform: scale(1.2);
+}
