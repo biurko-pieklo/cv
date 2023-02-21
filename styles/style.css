@@ -3,9 +3,19 @@
     --color_2: rgb(40, 0, 42);
     --color_3: rgb(36, 0, 32);
     --color_4: rgb(124, 0, 255);
+
+    --color_5: rgb(10, 0, 10);
+    --color_6: rgb(255, 255, 255);
+
     --gradient_1: linear-gradient(120deg, var(--color_1) 16%, var(--color_2) 38%, var(--color_3) 38%, var(--color_4) 82%);
 }
 
 body {
     margin: 0;
+    background: var(--color_5);
+    color: var(--color_6);
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
 }
