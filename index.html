@@ -8,6 +8,7 @@
 
         <script src="libs/jquery.js"></script>
 
+        <script src="scripts/nav.js"></script>
         <script src="scripts/prettyPrint.js"></script>
         <script src="scripts/utils.js"></script>
 
@@ -23,13 +24,13 @@
     </head>
     <body>
         <nav>
-            <a rel="main">main</a>
-            <a rel="interests">interests</a>
-            <a rel="education">education</a>
-            <a rel="experience">experience</a>
+            <a rel="main" data-nav="main">main</a>
+            <a rel="interests" data-nav="interests">interests</a>
+            <a rel="education" data-nav="education">education</a>
+            <a rel="experience" data-nav="experience">experience</a>
         </nav>
 
-        <div class="section section-main">
+        <div class="section section-main" data-section="main">
             <h1 class="prettyprint" data-word="mateusz wiśniewski"></h1>
             <div class="description">
                 <p>pochodzę z niewielkiej miejscowości w centrum Wielkopolski - Strzałkowa;</p>
@@ -48,8 +49,8 @@
                 <p>postępów - dobra zabawa gwarantowana; na teraz to tyle - już przynudzam;</p>
             </div>
         </div>
-        <div class="section section-interests"></div>
-        <div class="section section-education"></div>
-        <div class="section section-experience"></div>
+        <div class="section section-interests section--hidden" data-section="interests"></div>
+        <div class="section section-education section--hidden" data-section="education"></div>
+        <div class="section section-experience section--hidden" data-section="experience"></div>
     </body>
 </html>

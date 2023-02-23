@@ -28,3 +28,17 @@ h2 {
     font-size: 35px;
     margin-top: 50px;
 }
+
+.section {
+    scale: 1;
+    width: 100%;
+    text-align: center;
+
+    transform-origin: center;
+    transition: .3s all;
+}
+
+.section--hidden {
+    scale: 0;
+    position: absolute;
+}
